@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: service-backlog
+  cloud:
+    config:
+      uri: https://pds-taller-configserver.herokuapp.com
+      name: admin
+      password: admin1234
